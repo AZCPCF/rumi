@@ -1,0 +1,30 @@
+import { useCallback } from 'react';
+import { isClient } from '../../utils';
+
+export const useLocalStorage = () => {
+
+  const getItem = useCallback((key: string): string | undefined => {
+    if (!isClient) return;
+    try {
+      return localStorage.getItem(key) ?? undefined;
+    } catch {
+      return undefined;
+    }
+  }, []);
+
+  const setItem = useCallback((key: string, value: string): void => {
+    if (!isClient) return;
+    try {
+      localStorage.setItem(key, value);
+    } catch {}
+  }, []);
+
+  const removeItem = useCallback((key: string): void => {
+    if (!isClient) return;
+    try {
+      localStorage.removeItem(key);
+    } catch {}
+  }, []);
+
+  return { getItem, setItem, removeItem };
+};
