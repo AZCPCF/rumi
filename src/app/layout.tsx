@@ -18,19 +18,19 @@ export const metadata: Metadata = {
     "mysticism",
     "Persian poet",
   ],
-  authors: [{ name: "CPCF", url: "https://your-portfolio-url.com" }],
+  authors: [{ name: "CPCF", url: "https://rumi-one.vercel.app" }],
   creator: "CPCF",
   publisher: "CPCF",
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://rumi-one.vercel.app"),
   openGraph: {
     title: "Rumi Reflections | Timeless Wisdom & Poetry",
     description:
       "Discover the mystical poetry and teachings of Rumi. A tribute to love, unity, and the soul’s journey.",
-    url: "https://your-domain.com",
+    url: "https://rumi-one.vercel.app",
     siteName: "Rumi Reflections",
     images: [
       {
-        url: "https://your-domain.com/og-image.jpg",
+        url: "https://rumi-one.vercel.app/og-image.png",
         width: 1200,
         height: 630,
         alt: "Rumi Reflections Open Graph Image",
@@ -44,19 +44,19 @@ export const metadata: Metadata = {
     title: "Rumi Reflections | Timeless Wisdom & Poetry",
     description:
       "Explore the poetic legacy of Rumi and his timeless spiritual insights.",
-    images: ["https://your-domain.com/twitter-card.jpg"],
+    images: ["https://rumi-one.vercel.app/twitter-card.jpg"],
     creator: "@yourTwitterHandle",
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: "/logo.png",
+    shortcut: "/logo.png",
     // apple: "/apple-touch-icon.png",
   },
 
   category: "Literature",
 };
 export const viewport: Viewport = {
-  themeColor: "#0f172a",
+  themeColor: "#fb8c8a",
 };
 export default function RootLayout({
   children,
