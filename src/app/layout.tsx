@@ -44,8 +44,8 @@ export const metadata: Metadata = {
     title: "Rumi Reflections | Timeless Wisdom & Poetry",
     description:
       "Explore the poetic legacy of Rumi and his timeless spiritual insights.",
-    images: ["https://rumi-one.vercel.app/twitter-card.jpg"],
-    creator: "@yourTwitterHandle",
+    images: ["https://rumi-one.vercel.app/og-image.png"],
+    creator: "@azcpcf",
   },
   icons: {
     icon: "/logo.png",
