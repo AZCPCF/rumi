@@ -103,7 +103,7 @@ export default function HeaderNav() {
           className={cn(
             "fixed top-[80px] left-1/2 -translate-x-1/2 w-[95%] rounded-lg  h-max max-h-[calc(100vh-64px)] overflow-y-auto backdrop-blur-md bg-primary-900/90 p-3 shadow-xl text-white flex flex-col items-start gap-6 transition-all duration-300 ease-in-out z-50",
             open
-              ? "opacity-100 translate-y-0 pointer-events-auto"
+              ? "opacity-100 translate-y-0 pointer-events-auto disable-scroll"
               : "opacity-0 -translate-y-6 pointer-events-none"
           )}
         >

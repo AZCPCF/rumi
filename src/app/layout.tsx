@@ -48,9 +48,9 @@ export const metadata: Metadata = {
     creator: "@azcpcf",
   },
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    // apple: "/apple-touch-icon.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 
   category: "Literature",
